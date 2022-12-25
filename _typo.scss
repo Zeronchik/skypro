@@ -1,0 +1,185 @@
+@import "var";
+
+$size-font-title1: 64px;
+$size-font-title2: 48px;;
+$size-font-title3: 34px;
+$size-font-title4: 24px;
+$size-font-body1: 18px;
+$size-font-body2: 16px;
+$size-font-caption1: 14px;
+
+$line-height-font-title1: 70px;
+$line-height-font-title2: 60px;
+$line-height-font-title3: 40px;
+$line-height-font-title4: 32px;
+$line-height-font-body1: 28px;
+$line-height-font-body2: 24px;
+$line-height-font-caption1: 18px;
+
+$weight-font-600: 600;
+$weight-font-500: 500;
+$weight-font-400: 400;
+
+%title-1 {
+
+    &__400 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title1;
+        line-height: $line-height-font-title1;
+        font-weight: $weight-font-400;
+    }
+
+    &__500 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title1;
+        line-height: $line-height-font-title1;
+        font-weight: $weight-font-500;
+    }
+
+    &__600 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title1;
+        line-height: $line-height-font-title1;
+        font-weight: $weight-font-600;
+    }
+}
+
+%title-2 {
+    
+    &__400 {
+    font-family: "Montserrat", sans-serif;
+    font-size: $size-font-title2;
+    line-height: $line-height-font-title2;
+    font-weight: $weight-font-400;
+    }
+
+    &__500 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title2;
+        line-height: $line-height-font-title2;
+        font-weight: $weight-font-500;
+    }
+
+    &__600 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title2;
+        line-height: $line-height-font-title2;
+        font-weight: $weight-font-600;
+    }
+
+}
+
+%title-3 {
+    &__400 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title3;
+        line-height: $line-height-font-title3;
+        font-weight: $weight-font-400;
+    }
+        
+    &__500 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title3;
+        line-height: $line-height-font-title3;
+        font-weight: $weight-font-500;
+    }
+        
+    &__600 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title3;
+        line-height: $line-height-font-title3;
+        font-weight: $weight-font-600;
+    }
+}
+
+%title-4 {
+    &__400 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title4;
+        line-height: $line-height-font-title4;
+        font-weight: $weight-font-400;
+    }
+        
+    &__500 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title4;
+        line-height: $line-height-font-title4;
+        font-weight: $weight-font-500;
+    }
+        
+    &__600 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-title4;
+        line-height: $line-height-font-title4;
+        font-weight: $weight-font-600;
+    }
+}
+
+%body-1 {
+    &__400 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-body1;
+        line-height: $line-height-font-body1;
+        font-weight: $weight-font-400;
+    }
+        
+    &__500 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-body1;
+        line-height: $line-height-font-body1;
+        font-weight: $weight-font-500;
+    }
+        
+    &__600 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-body1;
+        line-height: $line-height-font-body1;
+        font-weight: $weight-font-600;
+    }
+}
+
+%body-2 {
+    &__400 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-body2;
+        line-height: $line-height-font-body2;
+        font-weight: $weight-font-400;
+    }
+        
+    &__500 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-body2;
+        line-height: $line-height-font-body2;
+        font-weight: $weight-font-500;
+    }
+        
+    &__600 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-body2;
+        line-height: $line-height-font-body2;
+        font-weight: $weight-font-600;
+    }
+}
+
+%caption-1 {
+    &__400 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-caption1;
+        line-height: $line-height-font-caption1;
+        font-weight: $weight-font-400;
+    }
+        
+    &__500 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-caption1;
+        line-height: $line-height-font-caption1;
+        font-weight: $weight-font-500;
+    }
+        
+    &__600 {
+        font-family: "Montserrat", sans-serif;
+        font-size: $size-font-caption1;
+        line-height: $line-height-font-caption1;
+        font-weight: $weight-font-600;
+    }
+}

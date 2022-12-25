@@ -1,0 +1,160 @@
+@import "var";
+@import "typo";
+@import "atoms";
+
+@media (max-width: 767px) {
+    .center {
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+
+    .header {
+    padding-top: 50px;
+    border: none;
+
+        &__menu-touch {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        }
+    }
+
+    .header form {
+    display: none;
+    }
+
+    .text_block_top {
+    align-items: center
+    }
+
+    .cover_header {
+    text-align: center;
+    }
+
+    .logo-img {
+    height: 22px;
+    }
+
+    .menu {
+    display: none;
+    }
+
+    .cover_header {
+    font-size: 48px;
+    line-height: 59px;
+    }
+
+    .cover_subtitle {
+    text-align: center;
+    }
+
+    .section_header {
+    font-size: 24px;
+    line-height: 29px;
+    }
+
+    .category-box {
+    padding-top: 32px;
+    }
+
+    .category_content {
+    grid-template-columns: repeat(4, 1fr);
+    }
+
+    .category {
+    grid-column: 1 / -1;
+    height: 375px;
+    }
+
+    .item_big {
+    height: 243px;
+    }
+
+    .product-box {
+    margin-top: 32px;
+    }
+
+    .product-content {
+    justify-content: center;
+    }
+
+    .product_card {
+    width: 342px;
+    }
+
+    .product_header {
+    font-size: 18px;
+    line-height: 22px;
+    }
+
+    .product_subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    }
+
+    .price {
+    font-size: 18px;
+    line-height: 22px;
+    }
+
+    .link, .catalog_link {
+    font-size: 16px;
+    line-height: 24px;
+    }
+
+    .footer {
+        margin-top: 32px;
+    }
+
+    .footer_content {
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .footer_info {
+        width: 100%;
+    }
+
+    .mini_nav {
+    flex-direction: column;
+    gap: 16px;
+    }
+
+    .cart-box {
+    margin-top: 32px;
+    }
+
+    .product_list {
+        &_intents {
+            &_button {
+            font-size: 12px;
+            line-height: 15px;
+            padding: 11px;
+            width: 100%;
+            }
+        }
+
+        &_item {
+            &_img {
+            display: none;
+            }
+        }
+    }
+
+    .cart-box {
+    grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product_list {
+    grid-column: 1 / -1;
+    }
+
+    .cart_form {
+    grid-column: 1 / -1;
+    }
+
+    .select {
+    width: 288px;
+    }
+}
